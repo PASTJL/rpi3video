@@ -22,7 +22,7 @@ Un Esp-8266 allume / éteint une lumière dans la maison car la caméra n'est pa
 Ainsi, je peux aussi simuler une présence. </br>
 L'autre allume / éteint l'arrosage de ma pelouse
 Le système d'exploitation de rpi3 est raspbian Stretch. </br>
-En utilisant le mécanisme  PAT / NAT de la Box Internet (dans mon cas, la Livebox joue Orange) et Dyn DNS supporté par la Boxpour un accès depuis Internet. </br>
+En utilisant le mécanisme  PAT / NAT de la Box Internet (dans mon cas, la Livebox play Orange) et Dyn DNS supporté par la Box pour un accès depuis Internet. </br>
 Vous pouvez atteindre votre domicile avec une tablette, un smartphone ou un PC.
 </br>
 Les pieces de logiciels et langages utilisés sont : </br>
