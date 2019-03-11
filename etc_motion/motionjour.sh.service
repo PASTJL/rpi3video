@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo cp  /etc/motion/motion.conf.jour /etc/motion/motion.conf
+sudo systemctl restart motion

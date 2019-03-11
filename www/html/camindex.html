@@ -1,0 +1,35 @@
+<html>
+
+	<head>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+        <title>Surveillance Maison Principale</title>
+
+    </head>
+<body>
+<div id="divgen">
+	<p>Camera 
+	<?php 
+	echo "Visualisation camera:";
+	 
+	?> </p>
+	<div id="divcam">
+		<p align="center">
+		<iframe  id="frmcam" src="http://192.168.1.19:8081"></iframe>
+		</p>
+	</div>
+	<div id="divbut">
+ 
+		<form action="" >
+    			<input type="submit" id="gauche" formaction="gauche.php"  name="gauche" value="<- Gauche">
+
+
+    			<input type="submit" id="droite" formaction="droite.php"  name="droite" value="Droite ->">
+		</form>
+	</div>
+</div>
+</body>
+</html>
+

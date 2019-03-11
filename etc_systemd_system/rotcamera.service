@@ -1,0 +1,11 @@
+[Unit]
+Description=Pilotage Camera
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/python_rpi3/rotCamera.py
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target

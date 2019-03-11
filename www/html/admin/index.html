@@ -1,0 +1,49 @@
+<html>
+
+	<head>
+
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../style.css" />
+        <title>Surveillance Maison Principale</title>
+
+<META http-equiv="refresh" content="2; ">
+    </head>
+<body>
+<div id="divgenadm">
+	<p id="pcam">Camera Maison Blagnac 
+	</p>
+	
+	
+	<div id="adminbut" style="margin-left:0px">
+ 
+		<form action="" >
+    			<input type="submit" id="startcamera" formaction="startcamera.php"  name="startcamera" value="Start Cam">
+
+
+    			<input type="submit" id="stopcamera" formaction="stopcamera.php"  name="stopcamera" value="Stop Cam">
+
+ 			<input type="submit" id="delmovies" formaction="delmovies.php"  name="delmovies" value="Sup Vid&eacute;os">
+			<p>
+			 <input type="submit" id="nuit" formaction="nuit.php"  name="nuit" value="Nuit">
+ 			<input type="submit" id="penombre" formaction="penombre.php"  name="penombre" value="P&eacute;nombre">
+
+                        <input type="submit" id="jour" formaction="jour.php"  name="jour" value="Jour">
+			</p>
+
+		</form>
+	</div>
+	 <div id="return" >
+        	<a href="../index.html"> Retour surveillance maison</a>
+       		
+
+
+
+        </div>
+        <div style="margin:0 auto;text-align:center;" id="divcamadm">
+         <iframe  width="660" height="500" id="camadm" src="../camera" >
+        </iframe>
+         </div>
+</div>
+</body>
+</html>
+

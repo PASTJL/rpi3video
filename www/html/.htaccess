@@ -1,0 +1,18 @@
+
+AuthName "Affichage camera Domicile"
+AuthType Basic
+AuthUserFile "/home/pi/www/html/.mdp
+Require valid-user
+
+
+<FilesMatch ".+\.html$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+#AllowOverride FileInfo
+ErrorDocument 500 /error.html
+ErrorDocument 501 /error.html
+ErrorDocument 502 /error.html
+ErrorDocument 503 /error.html
+
+

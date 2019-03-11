@@ -1,0 +1,5 @@
+# Fichier à générer à l'aide de l'utilitaire Apache htpasswd
+# voir là : https://www.linuxtricks.fr/wiki/apache-proteger-un-dossier-par-mot-de-passe
+# Remplacer le nom du fichier .htpasswd par .mdp
+# On obtient un fichier avec une ligne avec le schémas ci-dessous.
+#<user>:<mot de passe crypté>

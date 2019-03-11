@@ -1,0 +1,74 @@
+<html>
+
+	<head>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+        <title>Surveillance Maison Principale</title>
+
+<META http-equiv="refresh" content="2;">
+</head>
+<body>
+<div id="divgen">
+	<p id="pcam">Camera Maison Blagnac 
+	</p>
+	
+	
+	<div style="margin-bottom:-10px;" id="divbut">
+ 
+		<form action="" >
+    			<input type="submit" id="gauche" formaction="gauche.php"  name="gauche" value="<- Gauche">
+
+
+    			<input type="submit" id="droite" formaction="droite.php"  name="droite" value="Droite ->">
+			<input type="submit" id="arrosage" formaction="arrosage.php" name="arrosage" value="Arrosage"
+				<?php
+					if (file_exists("/home/pi/www/html/arrosage.cam")){
+				?> 
+			style="height:30px;width: 100px;margin-right:0px;font-family: Arial;font-size:14px;font-weight:Bold;background-color:lightblue !important;"
+				<?php } else {
+				?> 
+			style="height:30px; width: 100px;margin-right:0px;font-family: Arial;font-size:14px;font-weight:Bold;background-color:grey !important;"
+				<?php }?> >
+		<p>
+			<input type="submit" id="calgauche" formaction="calgauche.php" name="calgauche" value="Cal Gauche">
+			<input type="submit" id="caldroite" formaction="caldroite.php" name="caldroite" value="Cal Droite">
+		
+			<input type="submit" id="lumiere" formaction="lumiere.php" name="lumiere" value="Lumiere"
+				<?php
+					if (file_exists("/home/pi/www/html/lumiere.cam")){
+				?> 
+			style="height:30px;width: 100px;margin-right:0px;font-family: Arial;font-size:14px;font-weight:Bold;background-color:yellow !important;"
+				<?php } else {
+				?> 
+			style="height:30px; width: 100px;margin-right:0px;font-family: Arial;font-size:14px;font-weight:Bold;background-color:grey !important;"
+				<?php }?> >
+		</p>
+</form>
+	</div>
+	<div id="adminref" style="margin-bottom:10px;">
+        	<a href="motion"> Videos enregistrees </a>
+        	<a href="admin"> Administration Start/Stop Camera et nettoyage videos</a>
+
+
+        </div>
+	<div style="margin:0 auto;text-align:center;" id="divcamadm" >
+         <iframe  width="660" height="500" id="camadm" src="camera"  >
+
+
+
+        </iframe>
+         </div>
+
+
+        </div>
+
+
+
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+html,body,#divgen{ width:100% !important; height:100% !important;
+}
+
+#odivcam,#frmcam,#embed{
+margin-left:10%;
+width:80% !important;
+height:80% !important;
+display:block;
+text-align:center;
+}
+
+#adminref {
+text-align:center;
+}
+#adminref a:nth-child(1) {
+margin-right:5%;
+
+}
+
+#divbut,#pcam {
+text-align:center;
+font-family: Arial;
+font-size:14px;
+font-weight:Bold;
+}
+
+#adminbut form{
+margin-left : 0% !important;
+text-align:center;
+}
+
+#adminbut * input {
+ 	width: 100px;
+        margin-right:0px;
+        font-family: Arial;
+        font-size:14px;
+        font-weight:Bold;
+
+}
+
+#divBut *  input {
+	width: 100px;
+	margin-right:5px;
+	font-family: Arial;
+	font-size:14px;
+	font-weight:Bold;
+	
+}
