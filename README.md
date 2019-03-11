@@ -26,13 +26,13 @@ En utilisant le mécanisme  PAT / NAT de la Box Internet (dans mon cas, la Liveb
 Vous pouvez atteindre votre domicile avec une tablette, un smartphone ou un PC.
 </br>
 Les pieces de logiciels et langages utilisés sont : </br>
-<li>
+
 - apache2 + php7</br>
 - motion  +  camera rpi3 v2</br>
 - python3</br>
 - Dropbox</br>
 - raspbian crontab et services</br>
-</li>
+
 
 </br>
 Le document contient le guide d'installation et  est écrit en français
