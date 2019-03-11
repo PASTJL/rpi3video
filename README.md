@@ -15,6 +15,8 @@ The pieces of software and languages used are: </br>
 </br>
 The pdf document contains the installation guide and it is written in French .
 </br>
+To begin the installation, download the entire zip file from github to your rpi3, unzip into the /home/pi directory.<br>
+Read the document : miseEnPlaceVideo.pdf </br>
 
 </br>
 Projet de surveillance domotique, utilisant un raspberry pi3 et deux microcontrôleurs ESP-8266-01.</br>
@@ -35,4 +37,6 @@ Les pieces de logiciels et langages utilisés sont : </br>
 
 
 </br>
-Le document contient le guide d'installation et  est écrit en français
+Le document contient le guide d'installation et  est écrit en français</br>
+Pour commencer l'installation, téléchargez l'intégralité du fichier zip de github sur votre rpi3, décompressez-le dans le répertoire / home / pi. <br>
+Lire le document: miseEnPlaceVideo.pdf </br>
